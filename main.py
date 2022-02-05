@@ -53,16 +53,27 @@ my_number = 16
 
 # LOOPS
 
-color = None
+# color = None
 
-while color != 'quit':
-  color = input('Enter "green", "yellow", "red": ').lower()
-  print(f'The user entered {color}')
-  if color == 'green':
-    print('Go!')
-  elif color == 'yellow':
-    print('Slow Down!')
-  elif color == 'red':
-    print('Stop!')
-  else:
-    print('Bogus!')
+# while color != 'quit':
+#   color = input('Enter "green", "yellow", "red": ').lower()
+#   print(f'The user entered {color}')
+#   if color == 'green':
+#     print('Go!')
+#   elif color == 'yellow':
+#     print('Slow Down!')
+#   elif color == 'red':
+#     print('Stop!')
+#   else:
+#     print('Bogus!')
+
+
+# RANGES
+for num in range (5):
+  print('num: ', num)
+
+for even_num in range (2, 10, 2):
+  print('even_num: ',even_num)
+
+for dec_num in range (5, 0, -1):
+  print('dec_num: ', dec_num)
