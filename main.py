@@ -36,10 +36,28 @@ my_number = 16
 # print(1 == '1')
 # print(str(1) == '1')
 
-color = input('Enter "green", "yellow", "red": ').lower()
-print(f'The user entered {color}')
+# color = input('Enter "green", "yellow", "red": ').lower()
+# print(f'The user entered {color}')
 
-def traffic_light():
+# def traffic_light():
+#   if color == 'green':
+#     print('Go!')
+#   elif color == 'yellow':
+#     print('Slow Down!')
+#   elif color == 'red':
+#     print('Stop!')
+#   else:
+#     print('Bogus!')
+
+# traffic_light()
+
+# LOOPS
+
+color = None
+
+while color != 'quit':
+  color = input('Enter "green", "yellow", "red": ').lower()
+  print(f'The user entered {color}')
   if color == 'green':
     print('Go!')
   elif color == 'yellow':
@@ -48,5 +66,3 @@ def traffic_light():
     print('Stop!')
   else:
     print('Bogus!')
-
-traffic_light()
