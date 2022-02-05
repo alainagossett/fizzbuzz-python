@@ -24,4 +24,10 @@ another comment line
 my_number = 15
 # reassigning variables
 my_number = 16
+# my_number++ won't work
 print('my_number: ', my_number)
+
+# DATA TYPES
+print(type(42))
+print(type('hello world'))
+print(type(True))
