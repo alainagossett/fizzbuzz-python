@@ -9,4 +9,19 @@ def fizzbuzz(max_num):
     else:
       print(f'{num} in not Fizz,Buzz or FizzBuzz')
 
-fizzbuzz(20)
+# fizzbuzz(20)
+
+# COMMENTS
+# single line comment
+
+"""
+multi-line comment
+another comment line
+"""
+
+# VARIABLES
+# must be defined before being called
+my_number = 15
+# reassigning variables
+my_number = 16
+print('my_number: ', my_number)
